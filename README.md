@@ -27,10 +27,7 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 |:---:|:---|:---|:---|:---:|:---:|
 | **Exp 1** | List Operations (Insertion, Deletion and Display) | [`01_list_operations.py`](./01_list_operations.py) | Dynamic Array / Python List | `Insert: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp1_list_operations.png) |
 | **Exp 2** | Sorting Algorithms & Time Complexity Comparison (Bubble, Insertion, Quick, Merge, Heap) | [`02_sorting_algorithms_comparison.py`](./02_sorting_algorithms_comparison.py) | Sorting & Empirical Benchmark | `O(n log n) to O(n^2)` | [View](./screenshots/time_complexity_comparison.png) |
-| **Exp 3A** | Stack using List | [`03a_stack_using_list.py`](./03a_stack_using_list.py) | Stack (LIFO) / List | `Push: O(1), Pop: O(1), Peek: O(1)` | [View](./screenshots/exp3a_stack_list.png) |
-| **Exp 3B** | Queue using List | [`03b_queue_using_list.py`](./03b_queue_using_list.py) | Linear Queue (FIFO) / List | `Enqueue: O(1), Dequeue: O(n)` | [View](./screenshots/exp3b_queue_list.png) |
-| **Exp 3C** | Circular Queue using List | [`03c_circular_queue_using_list.py`](./03c_circular_queue_using_list.py) | Circular Queue (FIFO) / Fixed Array | `Enqueue: O(1), Dequeue: O(1)` | [View](./screenshots/exp3c_circular_queue_list.png) |
-| **Exp 3D** | Browser History using Stack | [`03d_browser_history_stack.py`](./03d_browser_history_stack.py) | Stack Application / Browser Simulation | `Visit: O(1), Back: O(1), View: O(n)` | [View](./screenshots/exp3d_browser_history.png) |
+| **Exp 3** | Searching Algorithms & Time Complexity Comparison (Linear Search vs. Binary Search) | [`03_searching_algorithms_comparison.py`](./03_searching_algorithms_comparison.py) | Searching & Empirical Benchmark | `Linear: O(n), Binary: O(log n)` | [View](./screenshots/exp3_searching_comparison.png) |
 | **Exp 4** | Evaluate Postfix Expression | [`04_evaluate_postfix.py`](./04_evaluate_postfix.py) | Stack Application / Arithmetic Expression | `O(n) where n is expression length` | [View](./screenshots/exp4_postfix_evaluation.png) |
 | **Exp 5** | Convert Infix to Postfix | [`05_infix_to_postfix.py`](./05_infix_to_postfix.py) | Stack Application / Shunting-yard variant | `O(n)` | [View](./screenshots/exp5_infix_to_postfix.png) |
 | **Exp 6** | Singly Linked List (Insert, Delete, Display) | [`06_singly_linked_list.py`](./06_singly_linked_list.py) | Singly Linked List | `Insert End: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp6_singly_linked_list.png) |
@@ -56,16 +53,22 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 
 ---
 
+## 🔍 Algorithmic Comparison: Searching Algorithms Benchmark (Experiment 3)
+
+| Algorithm | Best Time | Average Time | Worst Time | Auxiliary Space | Requires Sorted List? |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| **Linear Search** | $\mathcal{O}(1)$ | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | ❌ No (Works on any list) |
+| **Binary Search** | $\mathcal{O}(1)$ | $\mathcal{O}(\log n)$ | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | ✅ Yes (Requires sorted input) |
+
+---
+
 ## 📂 Repository Structure
 
 ```text
 DSA-Practical-Record/
 ├── 01_list_operations.py                 # Exp 1: List Operations (Insert, Delete, Display)
 ├── 02_sorting_algorithms_comparison.py   # Exp 2: Sorting Algorithms (Bubble, Insertion, Quick, Merge, Heap)
-├── 03a_stack_using_list.py               # Exp 3A: Stack using List (LIFO)
-├── 03b_queue_using_list.py               # Exp 3B: Linear Queue using List (FIFO)
-├── 03c_circular_queue_using_list.py      # Exp 3C: Circular Queue using List
-├── 03d_browser_history_stack.py          # Exp 3D: Browser History Simulation
+├── 03_searching_algorithms_comparison.py # Exp 3: Searching Algorithms (Linear Search vs Binary Search)
 ├── 04_evaluate_postfix.py                # Exp 4: Postfix Expression Evaluation
 ├── 05_infix_to_postfix.py                # Exp 5: Infix to Postfix Conversion
 ├── 06_singly_linked_list.py              # Exp 6: Singly Linked List (Insert, Delete, Display)
