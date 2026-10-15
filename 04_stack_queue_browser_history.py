@@ -211,39 +211,108 @@ SAMPLE TERMINAL EXECUTION & VERIFICATION:
 Enter choice: 1
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 1
-Enter value: 10
-10 pushed
+Enter value: 1
+1 pushed
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 1
-Enter value: 20
-20 pushed
+Enter value: 2
+2 pushed
+
+[Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 1
+Enter value: 3
+3 pushed
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 4
-Stack: ['10', '20']
+Stack: ['1', '2', '3']
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 2
-20 popped
+3 popped
+
+[Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 4
+Stack: ['1', '2']
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 5
+
+1.Stack  2.Queue  3.Circular Queue  4.Browser History  5.Exit
+Enter choice: 2
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 1
+1 inserted
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 5
+5 inserted
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 15
+15 inserted
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 2
+2 inserted
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
+Queue: ['1', '5', '15', '2']
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 2
+1 removed
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
+Queue: ['5', '15', '2']
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 4
+
+1.Stack  2.Queue  3.Circular Queue  4.Browser History  5.Exit
+Enter choice: 3
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 8
+8 inserted
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 9
+9 inserted
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 12
+12 inserted
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
+Circular Queue: ['8', '9', '12']
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 2
+8 removed
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
+Circular Queue: ['9', '12']
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 4
 
 1.Stack  2.Queue  3.Circular Queue  4.Browser History  5.Exit
 Enter choice: 4
 
 [Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 1
-Enter website: google.com
-Visited: google.com
+Enter website: https://www.youtube.com/
+Visited: https://www.youtube.com/
 
 [Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 1
-Enter website: github.com
-Visited: github.com
-
-[Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 2
-Back to: google.com
+Enter website: https://www.amazon.in/
+Visited: https://www.amazon.in/
 
 [Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 4
-Back stack   : ['Home']
-Current page : google.com
-Forward stack: ['github.com']
+Back stack   : ['Home', 'https://www.youtube.com/']
+Current page : https://www.amazon.in/
+Forward stack: []
+
+[Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 3
+No page to go forward
+
+[Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 2
+Back to: https://www.youtube.com/
+
+[Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 3
+Forward to: https://www.amazon.in/
 
 [Browser] 1.Visit 2.Back 3.Forward 4.Show 5.Exit: 5
 
