@@ -117,7 +117,7 @@ SAMPLE TERMINAL EXECUTION & VERIFICATION:
 4. Display
 5. Exit
 Enter your choice: 1
-Enter value: 10
+Enter value: 45
 Inserted at beginning.
 
 --- LINKED LIST OPERATIONS ---
@@ -127,7 +127,7 @@ Inserted at beginning.
 4. Display
 5. Exit
 Enter your choice: 2
-Enter value: 20
+Enter value: 68
 Inserted at end.
 
 --- LINKED LIST OPERATIONS ---
@@ -137,7 +137,27 @@ Inserted at end.
 4. Display
 5. Exit
 Enter your choice: 4
-10 -> 20 -> None
+45 -> 68 -> None
+
+--- LINKED LIST OPERATIONS ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete
+4. Display
+5. Exit
+Enter your choice: 1
+Enter value: 58
+Inserted at beginning.
+
+--- LINKED LIST OPERATIONS ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete
+4. Display
+5. Exit
+Enter your choice: 2
+Enter value: 97
+Inserted at end.
 
 --- LINKED LIST OPERATIONS ---
 1. Insert at Beginning
@@ -146,7 +166,26 @@ Enter your choice: 4
 4. Display
 5. Exit
 Enter your choice: 3
-Enter value to delete: 10
+Enter value to delete: 0
+Value not found.
+
+--- LINKED LIST OPERATIONS ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete
+4. Display
+5. Exit
+Enter your choice: 4
+58 -> 45 -> 68 -> 97 -> None
+
+--- LINKED LIST OPERATIONS ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete
+4. Display
+5. Exit
+Enter your choice: 3
+Enter value to delete: 68
 Deleted successfully.
 
 --- LINKED LIST OPERATIONS ---
@@ -156,7 +195,7 @@ Deleted successfully.
 4. Display
 5. Exit
 Enter your choice: 4
-20 -> None
+58 -> 45 -> 97 -> None
 
 --- LINKED LIST OPERATIONS ---
 1. Insert at Beginning
