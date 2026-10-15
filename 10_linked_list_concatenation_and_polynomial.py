@@ -162,11 +162,11 @@ SAMPLE TERMINAL EXECUTION & VERIFICATION:
 2. Polynomial addition
 3. Exit
 Enter choice: 1
-Enter elements of list 1 (space separated): 10 20 30
-Enter elements of list 2 (space separated): 40 50 60
-List 1 : 10 -> 20 -> 30 -> None
-List 2 : 40 -> 50 -> 60 -> None
-After concatenation: 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> None
+Enter elements of list 1 (space separated): 45 11 26
+Enter elements of list 2 (space separated): 78 95 23
+List 1 : 45 -> 11 -> 26 -> None
+List 2 : 78 -> 95 -> 23 -> None
+After concatenation: 45 -> 11 -> 26 -> 78 -> 95 -> 23 -> None
 
 1. Concatenate two linked lists
 2. Polynomial addition
@@ -174,24 +174,20 @@ After concatenation: 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> None
 Enter choice: 2
 
 -- First polynomial --
-Enter number of terms: 3
-  Coefficient of term 1: 5
+Enter number of terms: 2
+  Coefficient of term 1: 4
   Power of term 1      : 2
-  Coefficient of term 2: 4
-  Power of term 2      : 1
-  Coefficient of term 3: 2
-  Power of term 3      : 0
+  Coefficient of term 2: 8
+  Power of term 2      : 3
 
 -- Second polynomial --
-Enter number of terms: 2
-  Coefficient of term 1: 3
-  Power of term 1      : 2
-  Coefficient of term 2: 1
-  Power of term 2      : 0
+Enter number of terms: 1
+  Coefficient of term 1: 2
+  Power of term 1      : 5
 
-First  polynomial : +5x^2 +4x^1 +2x^0 
-Second polynomial : +3x^2 +1x^0 
-Sum               : +8x^2 +4x^1 +3x^0 
+First  polynomial : +8x^3 +4x^2 
+Second polynomial : +2x^5 
+Sum               : +2x^5 +8x^3 +4x^2 
 
 1. Concatenate two linked lists
 2. Polynomial addition
