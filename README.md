@@ -73,7 +73,7 @@ DSA-Practical-Record/
 ├── 08_circular_linked_list.py                     # Exp 8: Circular Linked List (Insert, Delete, Display)
 ├── 09_stack_queue_circular_queue_linked_list.py   # Exp 9: Stack, Queue & Circular Queue using Linked List
 ├── 10_linked_list_concatenation_and_polynomial.py # Exp 10: Linked List Concatenation & Polynomial Addition
-├── Data_Structures_and_Algorithms_Practical_File.docx # Official Academic Record Submission Document
+├── Data_Structures_and_Algorithms_Practical_File.pdf  # Official Academic Record Submission Document
 ├── screenshots/                                   # Terminal execution screenshots for all practicals
 │   ├── exp1_list_operations.png
 │   ├── exp2_sorting_comparison.png
