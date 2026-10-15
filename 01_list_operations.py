@@ -78,27 +78,7 @@ SAMPLE TERMINAL EXECUTION & VERIFICATION:
 3. Display
 4. Exit
 Enter your choice: 1
-Enter value to insert: 10
-Enter position (press Enter to add at end): 
-Inserted successfully.
-
---- LIST OPERATIONS ---
-1. Insertion
-2. Deletion
-3. Display
-4. Exit
-Enter your choice: 1
-Enter value to insert: 20
-Enter position (press Enter to add at end): 
-Inserted successfully.
-
---- LIST OPERATIONS ---
-1. Insertion
-2. Deletion
-3. Display
-4. Exit
-Enter your choice: 1
-Enter value to insert: 15
+Enter value to insert: 4
 Enter position (press Enter to add at end): 1
 Inserted successfully.
 
@@ -107,8 +87,28 @@ Inserted successfully.
 2. Deletion
 3. Display
 4. Exit
+Enter your choice: 1
+Enter value to insert: 5
+Enter position (press Enter to add at end): 2
+Inserted successfully.
+
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
+3. Display
+4. Exit
+Enter your choice: 1
+Enter value to insert: 7
+Enter position (press Enter to add at end): 3
+Inserted successfully.
+
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
+3. Display
+4. Exit
 Enter your choice: 3
-List elements: ['10', '15', '20']
+List elements: ['4', '5', '7']
 
 --- LIST OPERATIONS ---
 1. Insertion
@@ -116,7 +116,7 @@ List elements: ['10', '15', '20']
 3. Display
 4. Exit
 Enter your choice: 2
-Enter value to delete: 15
+Enter value to delete: 5
 Deleted successfully.
 
 --- LIST OPERATIONS ---
@@ -125,7 +125,7 @@ Deleted successfully.
 3. Display
 4. Exit
 Enter your choice: 3
-List elements: ['10', '20']
+List elements: ['4', '7']
 
 --- LIST OPERATIONS ---
 1. Insertion
