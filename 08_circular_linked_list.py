@@ -142,7 +142,7 @@ SAMPLE TERMINAL EXECUTION & VERIFICATION:
 4. Display
 5. Exit
 Enter your choice: 1
-Enter value: 10
+Enter value: 45
 Inserted at beginning.
 
 --- CIRCULAR LINKED LIST OPERATIONS ---
@@ -152,7 +152,27 @@ Inserted at beginning.
 4. Display
 5. Exit
 Enter your choice: 2
-Enter value: 20
+Enter value: 74
+Inserted at end.
+
+--- CIRCULAR LINKED LIST OPERATIONS ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete
+4. Display
+5. Exit
+Enter your choice: 1
+Enter value: 26
+Inserted at beginning.
+
+--- CIRCULAR LINKED LIST OPERATIONS ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete
+4. Display
+5. Exit
+Enter your choice: 2
+Enter value: 65
 Inserted at end.
 
 --- CIRCULAR LINKED LIST OPERATIONS ---
@@ -162,7 +182,7 @@ Inserted at end.
 4. Display
 5. Exit
 Enter your choice: 4
-10 -> 20 -> (back to head)
+26 -> 45 -> 74 -> 65 -> (back to head)
 
 --- CIRCULAR LINKED LIST OPERATIONS ---
 1. Insert at Beginning
@@ -171,7 +191,7 @@ Enter your choice: 4
 4. Display
 5. Exit
 Enter your choice: 3
-Enter value to delete: 10
+Enter value to delete: 26
 Deleted successfully.
 
 --- CIRCULAR LINKED LIST OPERATIONS ---
@@ -181,7 +201,7 @@ Deleted successfully.
 4. Display
 5. Exit
 Enter your choice: 4
-20 -> (back to head)
+45 -> 74 -> 65 -> (back to head)
 
 --- CIRCULAR LINKED LIST OPERATIONS ---
 1. Insert at Beginning
