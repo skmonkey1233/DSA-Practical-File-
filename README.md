@@ -95,8 +95,8 @@ DSA-Practical-Record/
 
 ### 1. Clone the repository
 ```bash
-git clone <YOUR-GITHUB-REPO-URL>
-cd DSA-Practical-Record
+git clone https://github.com/skmonkey1233/DSA-Practical-File-.git
+cd DSA-Practical-File-
 ```
 
 ### 2. Run any experiment
