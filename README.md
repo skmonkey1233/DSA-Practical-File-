@@ -26,9 +26,7 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 | Exp No. | Experiment Title | Python File | Data Structure / Concept | Time Complexity | Output Screenshot |
 |:---:|:---|:---|:---|:---:|:---:|
 | **Exp 1** | List Operations (Insertion, Deletion and Display) | [`01_list_operations.py`](./01_list_operations.py) | Dynamic Array / Python List | `Insert: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp1_list_operations.png) |
-| **Exp 2A** | Quick Sort Algorithm | [`02a_quick_sort.py`](./02a_quick_sort.py) | Sorting / Divide & Conquer | `Best/Avg: O(n log n), Worst: O(n^2)` | [View](./screenshots/exp2a_quick_sort.png) |
-| **Exp 2B** | Merge Sort Algorithm | [`02b_merge_sort.py`](./02b_merge_sort.py) | Sorting / Divide & Conquer | `Best/Avg/Worst: O(n log n)` | [View](./screenshots/exp2b_merge_sort.png) |
-| **Analysis** | Time Complexity Comparison (Quick Sort vs Merge Sort) | [`02c_complexity_analysis.py`](./02c_complexity_analysis.py) | Empirical Benchmark & Complexity Analysis | `Comparison: Quick Sort vs Merge Sort` | [View](./screenshots/time_complexity_comparison.png) |
+| **Exp 2** | Sorting Algorithms & Time Complexity Comparison (Bubble, Insertion, Quick, Merge, Heap) | [`02_sorting_algorithms_comparison.py`](./02_sorting_algorithms_comparison.py) | Sorting & Empirical Benchmark | `O(n log n) to O(n^2)` | [View](./screenshots/time_complexity_comparison.png) |
 | **Exp 3A** | Stack using List | [`03a_stack_using_list.py`](./03a_stack_using_list.py) | Stack (LIFO) / List | `Push: O(1), Pop: O(1), Peek: O(1)` | [View](./screenshots/exp3a_stack_list.png) |
 | **Exp 3B** | Queue using List | [`03b_queue_using_list.py`](./03b_queue_using_list.py) | Linear Queue (FIFO) / List | `Enqueue: O(1), Dequeue: O(n)` | [View](./screenshots/exp3b_queue_list.png) |
 | **Exp 3C** | Circular Queue using List | [`03c_circular_queue_using_list.py`](./03c_circular_queue_using_list.py) | Circular Queue (FIFO) / Fixed Array | `Enqueue: O(1), Dequeue: O(1)` | [View](./screenshots/exp3c_circular_queue_list.png) |
@@ -46,12 +44,15 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 
 ---
 
-## ⚡ Algorithmic Comparison: Quick Sort vs. Merge Sort (Experiment 2C)
+## ⚡ Algorithmic Comparison: Sorting Algorithms Benchmark (Experiment 2)
 
 | Algorithm | Best Time | Average Time | Worst Time | Auxiliary Space | Stable? | In-Place? |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Bubble Sort** | $\mathcal{O}(n)$ | $\mathcal{O}(n^2)$ | $\mathcal{O}(n^2)$ | $\mathcal{O}(1)$ | ✅ Yes | ✅ Yes |
+| **Insertion Sort** | $\mathcal{O}(n)$ | $\mathcal{O}(n^2)$ | $\mathcal{O}(n^2)$ | $\mathcal{O}(1)$ | ✅ Yes | ✅ Yes |
 | **Quick Sort** | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n^2)$ | $\mathcal{O}(\log n)$ | ❌ No | ✅ Yes |
 | **Merge Sort** | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n)$ | ✅ Yes | ❌ No |
+| **Heap Sort** | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(1)$ | ❌ No | ✅ Yes |
 
 ---
 
@@ -59,30 +60,28 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 
 ```text
 DSA-Practical-Record/
-├── 01_list_operations.py              # Exp 1: List Operations (Insert, Delete, Display)
-├── 02a_quick_sort.py                  # Exp 2A: Quick Sort Algorithm
-├── 02b_merge_sort.py                  # Exp 2B: Merge Sort Algorithm
-├── 02c_complexity_analysis.py         # Exp 2C: Empirical Complexity Comparison
-├── 03a_stack_using_list.py            # Exp 3A: Stack using List (LIFO)
-├── 03b_queue_using_list.py            # Exp 3B: Linear Queue using List (FIFO)
-├── 03c_circular_queue_using_list.py   # Exp 3C: Circular Queue using List
-├── 03d_browser_history_stack.py       # Exp 3D: Browser History Simulation
-├── 04_evaluate_postfix.py             # Exp 4: Postfix Expression Evaluation
-├── 05_infix_to_postfix.py             # Exp 5: Infix to Postfix Conversion
-├── 06_singly_linked_list.py           # Exp 6: Singly Linked List (Insert, Delete, Display)
-├── 07_circular_linked_list.py         # Exp 7: Circular Linked List (Insert, Delete, Display)
-├── 08a_stack_linked_list.py           # Exp 8A: Stack using Linked List
-├── 08b_queue_linked_list.py           # Exp 8B: Queue using Linked List
-├── 08c_circular_queue_linked_list.py  # Exp 8C: Circular Queue using Linked List
-├── 09a_concatenate_linked_lists.py    # Exp 9A: Concatenation of Two Linked Lists
-├── 09b_polynomial_addition.py         # Exp 9B: Polynomial Addition using Linked Lists
-├── 10_doubly_linked_list.py           # Exp 10: Doubly Linked List (Insert, Delete, Display)
-├── screenshots/                       # Terminal execution screenshots for all 18 experiments
+├── 01_list_operations.py                 # Exp 1: List Operations (Insert, Delete, Display)
+├── 02_sorting_algorithms_comparison.py   # Exp 2: Sorting Algorithms (Bubble, Insertion, Quick, Merge, Heap)
+├── 03a_stack_using_list.py               # Exp 3A: Stack using List (LIFO)
+├── 03b_queue_using_list.py               # Exp 3B: Linear Queue using List (FIFO)
+├── 03c_circular_queue_using_list.py      # Exp 3C: Circular Queue using List
+├── 03d_browser_history_stack.py          # Exp 3D: Browser History Simulation
+├── 04_evaluate_postfix.py                # Exp 4: Postfix Expression Evaluation
+├── 05_infix_to_postfix.py                # Exp 5: Infix to Postfix Conversion
+├── 06_singly_linked_list.py              # Exp 6: Singly Linked List (Insert, Delete, Display)
+├── 07_circular_linked_list.py            # Exp 7: Circular Linked List (Insert, Delete, Display)
+├── 08a_stack_linked_list.py              # Exp 8A: Stack using Linked List
+├── 08b_queue_linked_list.py              # Exp 8B: Queue using Linked List
+├── 08c_circular_queue_linked_list.py     # Exp 8C: Circular Queue using Linked List
+├── 09a_concatenate_linked_lists.py       # Exp 9A: Concatenation of Two Linked Lists
+├── 09b_polynomial_addition.py            # Exp 9B: Polynomial Addition using Linked Lists
+├── 10_doubly_linked_list.py              # Exp 10: Doubly Linked List (Insert, Delete, Display)
+├── screenshots/                          # Terminal execution screenshots for all practicals
 │   ├── exp1_list_operations.png
 │   ├── ...
 │   └── exp10_doubly_linked_list.png
-├── .gitignore                         # Standard Python gitignore
-└── README.md                          # Repository documentation and practical index
+├── .gitignore                            # Standard Python gitignore
+└── README.md                             # Repository documentation and practical index
 ```
 
 ---
