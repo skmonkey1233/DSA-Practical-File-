@@ -62,7 +62,7 @@ print("Postfix expression =", infix_to_postfix(exp))
 ================================================================================
 SAMPLE TERMINAL EXECUTION & VERIFICATION:
 ================================================================================
-Enter infix expression (e.g. A+B*C): (A + B) * (C - D) / (E + F) + G * H
-Postfix expression = AB+CD-*EF+/GH*+
+Enter infix expression (e.g. A+B*C): A + B * (C ^ D - E) ^ (F + G * H) - I
+Postfix expression = ABCD^E-FGH*+^*+I-
 ================================================================================
 """
