@@ -117,15 +117,15 @@ for name, func, best, avg, worst in algorithms:
 ================================================================================
 SAMPLE TERMINAL EXECUTION & VERIFICATION:
 ================================================================================
-Original list (first 10): [1825, 410, 4507, 4013, 3658, 2287, 1680, 8936, 1425, 9675]
-Sorted list   (first 10): [7, 10, 19, 26, 28, 36, 43, 44, 47, 54]
+Original list (first 10): [3796, 3191, 4706, 1925, 8951, 513, 2585, 3291, 3116, 7482]
+Sorted list   (first 10): [6, 9, 11, 11, 14, 23, 25, 29, 41, 53]
 
 Algorithm       Best         Average      Worst        Time taken (sec)
 ----------------------------------------------------------------------
-Bubble Sort     O(n)         O(n^2)       O(n^2)       0.1031
-Insertion Sort  O(n)         O(n^2)       O(n^2)       0.0537
-Quick Sort      O(n log n)   O(n log n)   O(n^2)       0.0023
-Merge Sort      O(n log n)   O(n log n)   O(n log n)   0.0022
+Bubble Sort     O(n)         O(n^2)       O(n^2)       0.1200
+Insertion Sort  O(n)         O(n^2)       O(n^2)       0.0540
+Quick Sort      O(n log n)   O(n log n)   O(n^2)       0.0030
+Merge Sort      O(n log n)   O(n log n)   O(n log n)   0.0030
 Heap Sort       O(n log n)   O(n log n)   O(n log n)   0.0030
 ================================================================================
 """
