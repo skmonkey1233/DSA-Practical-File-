@@ -32,9 +32,7 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 | **Exp 5** | Evaluation of Postfix Expression | [`05_evaluate_postfix.py`](./05_evaluate_postfix.py) | Stack Application / Arithmetic Expression | `O(n) where n is token count` | [View](./screenshots/exp5_postfix_evaluation.png) |
 | **Exp 6** | Conversion of Infix Expression to Postfix | [`06_infix_to_postfix.py`](./06_infix_to_postfix.py) | Stack Application / Shunting-Yard Variant | `O(n)` | [View](./screenshots/exp6_infix_to_postfix.png) |
 | **Exp 7** | Singly Linked List (Insert, Delete, Display) | [`07_singly_linked_list.py`](./07_singly_linked_list.py) | Singly Linked List | `Insert Begin: O(1), Insert End: O(n), Delete: O(n)` | [View](./screenshots/exp7_singly_linked_list.png) |
-| **Exp 8A** | Stack using Linked List | [`08a_stack_linked_list.py`](./08a_stack_linked_list.py) | Stack (LIFO) / Linked List | `Push: O(1), Pop: O(1), Peek: O(1)` | [View](./screenshots/exp8a_stack_linked_list.png) |
-| **Exp 8B** | Queue using Linked List | [`08b_queue_linked_list.py`](./08b_queue_linked_list.py) | Linear Queue (FIFO) / Linked List | `Enqueue: O(1), Dequeue: O(1)` | [View](./screenshots/exp8b_queue_linked_list.png) |
-| **Exp 8C** | Circular Queue using Linked List | [`08c_circular_queue_linked_list.py`](./08c_circular_queue_linked_list.py) | Circular Queue / Linked List | `Enqueue: O(1), Dequeue: O(1)` | [View](./screenshots/exp8c_circular_queue_linked_list.png) |
+| **Exp 8** | Circular Linked List (Insert, Delete, Display) | [`08_circular_linked_list.py`](./08_circular_linked_list.py) | Circular Singly Linked List | `Insert Begin/End: O(n), Delete: O(n)` | [View](./screenshots/exp8_circular_linked_list.png) |
 | **Exp 9A** | Concatenation of Two Linked Lists | [`09a_concatenate_linked_lists.py`](./09a_concatenate_linked_lists.py) | Linked List Application | `O(m) where m is length of first list` | [View](./screenshots/exp9a_concatenate_linked_lists.png) |
 | **Exp 9B** | Polynomial Addition using Linked Lists | [`09b_polynomial_addition.py`](./09b_polynomial_addition.py) | Linked List Application / Polynomial | `O(m + n) where m, n are terms count` | [View](./screenshots/exp9b_polynomial_addition.png) |
 | **Exp 10** | Doubly Linked List (Insert, Delete, Display) | [`10_doubly_linked_list.py`](./10_doubly_linked_list.py) | Doubly Linked List | `Insert End: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp10_doubly_linked_list.png) |
@@ -73,9 +71,7 @@ DSA-Practical-Record/
 ├── 05_evaluate_postfix.py                # Exp 5: Postfix Expression Evaluation
 ├── 06_infix_to_postfix.py                # Exp 6: Infix to Postfix Conversion
 ├── 07_singly_linked_list.py              # Exp 7: Singly Linked List (Insert, Delete, Display)
-├── 08a_stack_linked_list.py              # Exp 8A: Stack using Linked List
-├── 08b_queue_linked_list.py              # Exp 8B: Queue using Linked List
-├── 08c_circular_queue_linked_list.py     # Exp 8C: Circular Queue using Linked List
+├── 08_circular_linked_list.py            # Exp 8: Circular Linked List (Insert, Delete, Display)
 ├── 09a_concatenate_linked_lists.py       # Exp 9A: Concatenation of Two Linked Lists
 ├── 09b_polynomial_addition.py            # Exp 9B: Polynomial Addition using Linked Lists
 ├── 10_doubly_linked_list.py              # Exp 10: Doubly Linked List (Insert, Delete, Display)
