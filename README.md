@@ -3,7 +3,7 @@
 [![Language: Python](https://img.shields.io/badge/Language-Python%203.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Course: MCA Sem 1](https://img.shields.io/badge/Course-MCA%20Sem%201-104C3B)]()
 [![Institution: MRIIRS](https://img.shields.io/badge/Institution-MRIIRS%20(SCA)-1E406E)]()
-[![Status: Completed](https://img.shields.io/badge/Status-Completed%20(18%20Experiments)-brightgreen)]()
+[![Status: Completed](https://img.shields.io/badge/Status-Completed%20(10%20Experiments)-brightgreen)]()
 
 Complete repository for **Data Structures & Algorithms Laboratory Record**, implemented in Python 3. Each experiment is modularized into its own standalone, executable file complete with time/space complexity documentation and terminal execution logs.
 
@@ -26,16 +26,15 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 | Exp No. | Experiment Title | Python File | Data Structure / Concept | Time Complexity | Output Screenshot |
 |:---:|:---|:---|:---|:---:|:---:|
 | **Exp 1** | List Operations (Insertion, Deletion and Display) | [`01_list_operations.py`](./01_list_operations.py) | Dynamic Array / Python List | `Insert: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp1_list_operations.png) |
-| **Exp 2** | Sorting Algorithms & Time Complexity Comparison (Bubble, Insertion, Quick, Merge, Heap) | [`02_sorting_algorithms_comparison.py`](./02_sorting_algorithms_comparison.py) | Sorting & Empirical Benchmark | `O(n log n) to O(n^2)` | [View](./screenshots/time_complexity_comparison.png) |
+| **Exp 2** | Sorting Algorithms & Time Complexity Comparison (Bubble, Insertion, Quick, Merge, Heap) | [`02_sorting_algorithms_comparison.py`](./02_sorting_algorithms_comparison.py) | Sorting & Empirical Benchmark | `O(n log n) to O(n^2)` | [View](./screenshots/exp2_sorting_comparison.png) |
 | **Exp 3** | Searching Algorithms & Time Complexity Comparison (Linear Search vs. Binary Search) | [`03_searching_algorithms_comparison.py`](./03_searching_algorithms_comparison.py) | Searching & Empirical Benchmark | `Linear: O(n), Binary: O(log n)` | [View](./screenshots/exp3_searching_comparison.png) |
 | **Exp 4** | Stack, Queue, Circular Queue (using Arrays) & Browser History (using Stacks) | [`04_stack_queue_browser_history.py`](./04_stack_queue_browser_history.py) | Stack, Linear Queue, Circular Queue, Dual Stack | `Push/Pop: O(1), Enqueue/Dequeue: O(1)` | [View](./screenshots/exp4_stack_queue_browser.png) |
 | **Exp 5** | Evaluation of Postfix Expression | [`05_evaluate_postfix.py`](./05_evaluate_postfix.py) | Stack Application / Arithmetic Expression | `O(n) where n is token count` | [View](./screenshots/exp5_postfix_evaluation.png) |
 | **Exp 6** | Conversion of Infix Expression to Postfix | [`06_infix_to_postfix.py`](./06_infix_to_postfix.py) | Stack Application / Shunting-Yard Variant | `O(n)` | [View](./screenshots/exp6_infix_to_postfix.png) |
 | **Exp 7** | Singly Linked List (Insert, Delete, Display) | [`07_singly_linked_list.py`](./07_singly_linked_list.py) | Singly Linked List | `Insert Begin: O(1), Insert End: O(n), Delete: O(n)` | [View](./screenshots/exp7_singly_linked_list.png) |
 | **Exp 8** | Circular Linked List (Insert, Delete, Display) | [`08_circular_linked_list.py`](./08_circular_linked_list.py) | Circular Singly Linked List | `Insert Begin/End: O(n), Delete: O(n)` | [View](./screenshots/exp8_circular_linked_list.png) |
-| **Exp 9A** | Concatenation of Two Linked Lists | [`09a_concatenate_linked_lists.py`](./09a_concatenate_linked_lists.py) | Linked List Application | `O(m) where m is length of first list` | [View](./screenshots/exp9a_concatenate_linked_lists.png) |
-| **Exp 9B** | Polynomial Addition using Linked Lists | [`09b_polynomial_addition.py`](./09b_polynomial_addition.py) | Linked List Application / Polynomial | `O(m + n) where m, n are terms count` | [View](./screenshots/exp9b_polynomial_addition.png) |
-| **Exp 10** | Doubly Linked List (Insert, Delete, Display) | [`10_doubly_linked_list.py`](./10_doubly_linked_list.py) | Doubly Linked List | `Insert End: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp10_doubly_linked_list.png) |
+| **Exp 9** | Stack, Queue & Circular Queue using Linked List | [`09_stack_queue_circular_queue_linked_list.py`](./09_stack_queue_circular_queue_linked_list.py) | Linked List Stack, FIFO Queue & Circular Queue | `Push/Pop: O(1), Enqueue/Dequeue: O(1)` | [View](./screenshots/exp9_linked_list_stack_queue.png) |
+| **Exp 10** | Linked List Concatenation & Polynomial Addition | [`10_linked_list_concatenation_and_polynomial.py`](./10_linked_list_concatenation_and_polynomial.py) | Linked List Applications (Concatenation & Polynomial Math) | `Concat: O(n), Add Poly: O(m + n)` | [View](./screenshots/exp10_concatenation_and_polynomial.png) |
 
 ---
 
@@ -64,23 +63,30 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 
 ```text
 DSA-Practical-Record/
-├── 01_list_operations.py                 # Exp 1: List Operations (Insert, Delete, Display)
-├── 02_sorting_algorithms_comparison.py   # Exp 2: Sorting Algorithms (Bubble, Insertion, Quick, Merge, Heap)
-├── 03_searching_algorithms_comparison.py # Exp 3: Searching Algorithms (Linear Search vs Binary Search)
-├── 04_stack_queue_browser_history.py     # Exp 4: Stack, Queue, Circular Queue and Browser History
-├── 05_evaluate_postfix.py                # Exp 5: Postfix Expression Evaluation
-├── 06_infix_to_postfix.py                # Exp 6: Infix to Postfix Conversion
-├── 07_singly_linked_list.py              # Exp 7: Singly Linked List (Insert, Delete, Display)
-├── 08_circular_linked_list.py            # Exp 8: Circular Linked List (Insert, Delete, Display)
-├── 09a_concatenate_linked_lists.py       # Exp 9A: Concatenation of Two Linked Lists
-├── 09b_polynomial_addition.py            # Exp 9B: Polynomial Addition using Linked Lists
-├── 10_doubly_linked_list.py              # Exp 10: Doubly Linked List (Insert, Delete, Display)
-├── screenshots/                          # Terminal execution screenshots for all practicals
+├── 01_list_operations.py                          # Exp 1: List Operations (Insert, Delete, Display)
+├── 02_sorting_algorithms_comparison.py            # Exp 2: Sorting Algorithms (Bubble, Insertion, Quick, Merge, Heap)
+├── 03_searching_algorithms_comparison.py          # Exp 3: Searching Algorithms (Linear Search vs Binary Search)
+├── 04_stack_queue_browser_history.py              # Exp 4: Stack, Queue, Circular Queue and Browser History
+├── 05_evaluate_postfix.py                         # Exp 5: Postfix Expression Evaluation
+├── 06_infix_to_postfix.py                         # Exp 6: Infix to Postfix Conversion
+├── 07_singly_linked_list.py                       # Exp 7: Singly Linked List (Insert, Delete, Display)
+├── 08_circular_linked_list.py                     # Exp 8: Circular Linked List (Insert, Delete, Display)
+├── 09_stack_queue_circular_queue_linked_list.py   # Exp 9: Stack, Queue & Circular Queue using Linked List
+├── 10_linked_list_concatenation_and_polynomial.py # Exp 10: Linked List Concatenation & Polynomial Addition
+├── Data_Structures_and_Algorithms_Practical_File.docx # Official Academic Record Submission Document
+├── screenshots/                                   # Terminal execution screenshots for all practicals
 │   ├── exp1_list_operations.png
-│   ├── ...
-│   └── exp10_doubly_linked_list.png
-├── .gitignore                            # Standard Python gitignore
-└── README.md                             # Repository documentation and practical index
+│   ├── exp2_sorting_comparison.png
+│   ├── exp3_searching_comparison.png
+│   ├── exp4_stack_queue_browser.png
+│   ├── exp5_postfix_evaluation.png
+│   ├── exp6_infix_to_postfix.png
+│   ├── exp7_singly_linked_list.png
+│   ├── exp8_circular_linked_list.png
+│   ├── exp9_linked_list_stack_queue.png
+│   └── exp10_concatenation_and_polynomial.png
+├── .gitignore                                     # Standard Python gitignore
+└── README.md                                      # Repository documentation and practical index
 ```
 
 ---
