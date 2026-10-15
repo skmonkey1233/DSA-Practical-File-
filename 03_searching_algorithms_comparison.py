@@ -69,10 +69,10 @@ print("%-15s %-8s %-10s %-10s %s" % ("Binary Search", "O(1)", "O(log n)", "O(log
 ================================================================================
 SAMPLE TERMINAL EXECUTION & VERIFICATION:
 ================================================================================
-Enter element to search (1 to 1000000): 750000
+Enter element to search (1 to 1000000): 100000
 
-Linear Search : found at index 749999 | time = 0.01393294 sec
-Binary Search : found at index 749999 | time = 0.00000787 sec
+Linear Search : found at index 99999 | time = 0.00399995 sec
+Binary Search : found at index 99999 | time = 0.00000000 sec
 
 Algorithm       Best     Average    Worst      Sorted list needed?
 ------------------------------------------------------------
