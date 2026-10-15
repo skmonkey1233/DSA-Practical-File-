@@ -18,117 +18,121 @@ TECHNICAL SPECIFICATIONS:
 ================================================================================
 """
 
-# Experiment 1: List Operations (Insertion, Deletion and Display)
-a = []
+# Simple program for list operations: Insertion, Deletion, Display
 
-n = int(input("How many elements? "))
-for i in range(n):
-    x = int(input(f"Enter element {i + 1}: "))
-    a.append(x)
+my_list = []
+
+def insert():
+    value = input("Enter value to insert: ")
+    pos = input("Enter position (press Enter to add at end): ")
+    if pos == "":
+        my_list.append(value)
+    else:
+        my_list.insert(int(pos), value)
+    print("Inserted successfully.")
+
+def delete():
+    if not my_list:
+        print("List is empty. Nothing to delete.")
+        return
+    value = input("Enter value to delete: ")
+    if value in my_list:
+        my_list.remove(value)
+        print("Deleted successfully.")
+    else:
+        print("Value not found in the list.")
+
+def display():
+    if not my_list:
+        print("List is empty.")
+    else:
+        print("List elements:", my_list)
 
 while True:
-    print("\n--- MENU ---")
-    print("1. Insert")
-    print("2. Delete")
+    print("\n--- LIST OPERATIONS ---")
+    print("1. Insertion")
+    print("2. Deletion")
     print("3. Display")
     print("4. Exit")
-    choice = int(input("Enter choice: "))
+    choice = input("Enter your choice: ")
 
-    if choice == 1:
-        pos = int(input("Enter position (1-based): "))
-        value = int(input("Enter value: "))
-        if 1 <= pos <= len(a) + 1:
-            a.insert(pos - 1, value)
-            print(f"Inserted {value} at position {pos}.")
-        else:
-            print("Invalid position!")
-
-    elif choice == 2:
-        pos = int(input("Enter position to delete (1-based): "))
-        if 1 <= pos <= len(a):
-            removed = a.pop(pos - 1)
-            print(f"Deleted {removed} from position {pos}.")
-        else:
-            print("Invalid position!")
-
-    elif choice == 3:
-        print("Current List:", a)
-
-    elif choice == 4:
-        print("Exiting...")
+    if choice == "1":
+        insert()
+    elif choice == "2":
+        delete()
+    elif choice == "3":
+        display()
+    elif choice == "4":
+        print("Program ended.")
         break
     else:
-        print("Invalid choice! Please select 1-4.")
+        print("Invalid choice. Try again.")
 
 """
 ================================================================================
 SAMPLE TERMINAL EXECUTION & VERIFICATION:
 ================================================================================
-How many elements? 2
-Enter element 1: 1
-Enter element 2: 2
-
---- MENU ---
-1. Insert
-2. Delete
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
 3. Display
 4. Exit
-Enter choice: 1
-Enter position (1-based): 1
-Enter value: 2
-Inserted 2 at position 1.
+Enter your choice: 1
+Enter value to insert: 10
+Enter position (press Enter to add at end): 
+Inserted successfully.
 
---- MENU ---
-1. Insert
-2. Delete
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
 3. Display
 4. Exit
-Enter choice: 1
-Enter position (1-based): 2
-Enter value: 1
-Inserted 1 at position 2.
+Enter your choice: 1
+Enter value to insert: 20
+Enter position (press Enter to add at end): 
+Inserted successfully.
 
---- MENU ---
-1. Insert
-2. Delete
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
 3. Display
 4. Exit
-Enter choice: 1
-Enter position (1-based): 3
-Enter value: 4
-Inserted 4 at position 3.
+Enter your choice: 1
+Enter value to insert: 15
+Enter position (press Enter to add at end): 1
+Inserted successfully.
 
---- MENU ---
-1. Insert
-2. Delete
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
 3. Display
 4. Exit
-Enter choice: 3
-Current List: [2, 1, 4, 1, 2]
+Enter your choice: 3
+List elements: ['10', '15', '20']
 
---- MENU ---
-1. Insert
-2. Delete
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
 3. Display
 4. Exit
-Enter choice: 2
-Enter position to delete (1-based): 1
-Deleted 2 from position 1.
+Enter your choice: 2
+Enter value to delete: 15
+Deleted successfully.
 
---- MENU ---
-1. Insert
-2. Delete
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
 3. Display
 4. Exit
-Enter choice: 3
-Current list: [1, 4, 1, 2]
+Enter your choice: 3
+List elements: ['10', '20']
 
---- MENU ---
-1. Insert
-2. Delete
+--- LIST OPERATIONS ---
+1. Insertion
+2. Deletion
 3. Display
 4. Exit
-Enter choice: 4
-Exiting...
+Enter your choice: 4
+Program ended.
 ================================================================================
 """
