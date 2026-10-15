@@ -194,24 +194,22 @@ SAMPLE TERMINAL EXECUTION & VERIFICATION:
 Enter choice: 1
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 1
-Enter value: 10
-10 pushed
+Enter value: 12
+12 pushed
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 1
-Enter value: 20
-20 pushed
+Enter value: 34
+34 pushed
 
-[Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 3
-Top element: 20
+[Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 1
+Enter value: 42
+42 pushed
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 4
-Stack (top to bottom): 20 10 
+Stack (top to bottom): 42 34 12 
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 2
-20 popped
-
-[Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 4
-Stack (top to bottom): 10 
+42 popped
 
 [Stack] 1.Push 2.Pop 3.Peek 4.Display 5.Back: 5
 
@@ -219,21 +217,29 @@ Stack (top to bottom): 10
 Enter choice: 2
 
 [Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
-Enter value: 30
-30 inserted
+Enter value: 15
+15 inserted
 
 [Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
-Enter value: 40
-40 inserted
+Enter value: 78
+78 inserted
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 32
+32 inserted
+
+[Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 47
+47 inserted
 
 [Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
-Queue (front to rear): 30 40 
+Queue (front to rear): 65 78 15 78 32 47 
 
 [Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 2
-30 removed
+65 removed
 
 [Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
-Queue (front to rear): 40 
+Queue (front to rear): 78 15 78 32 47 
 
 [Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 4
 
@@ -241,21 +247,29 @@ Queue (front to rear): 40
 Enter choice: 3
 
 [Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
-Enter value: 50
-50 inserted
+Enter value: 98
+98 inserted
 
 [Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
-Enter value: 60
-60 inserted
+Enter value: 62
+62 inserted
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 26
+26 inserted
+
+[Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 1
+Enter value: 64
+64 inserted
 
 [Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
-Circular Queue: 50 60 (back to front)
+Circular Queue: 98 62 26 64 (back to front)
 
 [Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 2
-50 removed
+98 removed
 
 [Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 3
-Circular Queue: 60 (back to front)
+Circular Queue: 62 26 64 (back to front)
 
 [Circular Queue] 1.Enqueue 2.Dequeue 3.Display 4.Back: 4
 
