@@ -55,7 +55,7 @@ print("Result =", evaluate_postfix(exp))
 ================================================================================
 SAMPLE TERMINAL EXECUTION & VERIFICATION:
 ================================================================================
-Enter postfix expression (separate with spaces, e.g. 2 3 1 * + 9 -): 2 3 1 * + 9 -
-Result = -4
+Enter postfix expression (separate with spaces, e.g. 2 3 1 * + 9 -): 5 1 2 + 4 * + 3 -
+Result = 14
 ================================================================================
 """
