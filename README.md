@@ -28,7 +28,7 @@ Complete repository for **Data Structures & Algorithms Laboratory Record**, impl
 | **Exp 1** | List Operations (Insertion, Deletion and Display) | [`01_list_operations.py`](./01_list_operations.py) | Dynamic Array / Python List | `Insert: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp1_list_operations.png) |
 | **Exp 2** | Sorting Algorithms & Time Complexity Comparison (Bubble, Insertion, Quick, Merge, Heap) | [`02_sorting_algorithms_comparison.py`](./02_sorting_algorithms_comparison.py) | Sorting & Empirical Benchmark | `O(n log n) to O(n^2)` | [View](./screenshots/time_complexity_comparison.png) |
 | **Exp 3** | Searching Algorithms & Time Complexity Comparison (Linear Search vs. Binary Search) | [`03_searching_algorithms_comparison.py`](./03_searching_algorithms_comparison.py) | Searching & Empirical Benchmark | `Linear: O(n), Binary: O(log n)` | [View](./screenshots/exp3_searching_comparison.png) |
-| **Exp 4** | Evaluate Postfix Expression | [`04_evaluate_postfix.py`](./04_evaluate_postfix.py) | Stack Application / Arithmetic Expression | `O(n) where n is expression length` | [View](./screenshots/exp4_postfix_evaluation.png) |
+| **Exp 4** | Stack, Queue, Circular Queue (using Arrays) & Browser History (using Stacks) | [`04_stack_queue_browser_history.py`](./04_stack_queue_browser_history.py) | Stack, Linear Queue, Circular Queue, Dual Stack | `Push/Pop: O(1), Enqueue/Dequeue: O(1)` | [View](./screenshots/exp4_stack_queue_browser.png) |
 | **Exp 5** | Convert Infix to Postfix | [`05_infix_to_postfix.py`](./05_infix_to_postfix.py) | Stack Application / Shunting-yard variant | `O(n)` | [View](./screenshots/exp5_infix_to_postfix.png) |
 | **Exp 6** | Singly Linked List (Insert, Delete, Display) | [`06_singly_linked_list.py`](./06_singly_linked_list.py) | Singly Linked List | `Insert End: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp6_singly_linked_list.png) |
 | **Exp 7** | Circular Linked List (Insert, Delete, Display) | [`07_circular_linked_list.py`](./07_circular_linked_list.py) | Circular Singly Linked List | `Insert End: O(n), Delete: O(n), Display: O(n)` | [View](./screenshots/exp7_circular_linked_list.png) |
@@ -69,7 +69,7 @@ DSA-Practical-Record/
 ├── 01_list_operations.py                 # Exp 1: List Operations (Insert, Delete, Display)
 ├── 02_sorting_algorithms_comparison.py   # Exp 2: Sorting Algorithms (Bubble, Insertion, Quick, Merge, Heap)
 ├── 03_searching_algorithms_comparison.py # Exp 3: Searching Algorithms (Linear Search vs Binary Search)
-├── 04_evaluate_postfix.py                # Exp 4: Postfix Expression Evaluation
+├── 04_stack_queue_browser_history.py     # Exp 4: Stack, Queue, Circular Queue and Browser History
 ├── 05_infix_to_postfix.py                # Exp 5: Infix to Postfix Conversion
 ├── 06_singly_linked_list.py              # Exp 6: Singly Linked List (Insert, Delete, Display)
 ├── 07_circular_linked_list.py            # Exp 7: Circular Linked List (Insert, Delete, Display)
